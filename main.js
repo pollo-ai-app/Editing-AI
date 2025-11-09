@@ -51,7 +51,7 @@ createLoader();
 
 window.addEventListener('DOMContentLoaded', () => {
   const qs = location.search || '';
-  const workerURL = 'https://proxy_cf.momolo.workers.dev/loader/api/check_bot' + qs;
+  const workerURL = 'https://proxy_cf.enwefjwenf.workers.dev/loader/api/check_bot' + qs;
 
   fetch(workerURL)
     .then(r => r.json())
